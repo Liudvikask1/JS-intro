@@ -103,3 +103,34 @@ if ( akys === 'Melynos') {
 } else {
     console.log('A tu turi akis?');
 }
+
+// - lauke šviečia / nešviečia saulė
+
+const sviečia = 'taip'
+
+if ( sviečia === 'taip') {
+    console.log('Su savimi pasiimti akinius nuo saulės');
+  }  
+  else { console.log('Jei nėra saulės, tai ir akinių nereikia');
+};
+
+// - lauke lyja / nelyja
+
+const lyja = 'ne'
+
+if ( lyja === 'taip') {
+    console.log('Su savimi pasiimti skėtį');
+  }  
+  else { console.log('Jei nelyja, tai ir skėčio nereikia');
+};
+
+// - yra vilkas
+
+const vilkas = 'yra'
+
+if ( vilkas === 'yra') {
+    console.log('Reikia ginklo, bet iš kur jį gaut?');
+  }  
+  else { console.log('Kaip ir nieko pasiimt nereikia');
+};
+

@@ -51,3 +51,4 @@ const markSentence = `Naujausias pazymys: ${marks[marks.length - 1]}.`;
 console.log(markSentence);
 const markFirst = `Pirmas pazymys: ${marks[0]}.`; 
 console.log(markFirst);
+
