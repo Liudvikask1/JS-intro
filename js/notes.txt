@@ -1,0 +1,12 @@
+notes
+
+/*
+kintamųjų iniciavimo būdai:
+const - kintamasis, kurio reikšmės negalima pakeisti*
+let - kintamasis, kurio reikmę galima priskirti kiek reikia
+var - esant galimybei nenaudoti
+
+* - yra papildomų sąlygų su kompleksiniais kintamaisiais
+
+
+*/
