@@ -76,11 +76,10 @@ const abc = ['r', 'y', 't', 'a', 's'];
 let zodis = '';
 let abcIndex = 0;
 
-
-zodis += abc[abcIndex];
-zodis += abc[abcIndex];
-zodis += abc[abcIndex];
-zodis += abc[abcIndex];
-zodis += abc[abcIndex];
+zodis += abc[abcIndex++];
+zodis += abc[abcIndex++];
+zodis += abc[abcIndex++];
+zodis += abc[abcIndex++];
+zodis += abc[abcIndex++];
 
 console.log(zodis);
