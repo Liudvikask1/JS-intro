@@ -78,20 +78,9 @@ let abcIndex = 0;
 
 
 zodis += abc[abcIndex];
-console.log(zodis);
-
-abcIndex ++;
 zodis += abc[abcIndex];
-console.log(zodis);
-
-abcIndex ++;
 zodis += abc[abcIndex];
-console.log(zodis);
-
-abcIndex ++;
 zodis += abc[abcIndex];
-console.log(zodis);
-
-abcIndex ++;
 zodis += abc[abcIndex];
+
 console.log(zodis);
