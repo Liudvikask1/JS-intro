@@ -31,3 +31,4 @@ for (let i = 0; i < mokykla.length; i++) {
 
     pazymiuVidurkis(name, marks)
 }
+

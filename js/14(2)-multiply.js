@@ -1,22 +1,32 @@
 function daugyba (a, b) {
     // parametru validacija
-    // jeigu a yra ne skaicius, grazinti klaidos pranesima
+    
     if (typeof a !== 'number') {
         return 'Pirmasis parametras turi buti skaiciaus formato';
     }
-    if (isNaN(a) || (a === Infinity) || (a === -Infinity)) {
-        return `Pirmasis parametras turi buti normalus skaicius ir negali buti ${a}`;
-    }
+    // if (isNaN(a) || (a === Infinity) || (a === -Infinity)) {
+    //    return `Pirmasis parametras turi buti normalus skaicius ir negali buti ${a}`;
+    // }
 
-    // jeigu b yra ne skaicius, grazinti klaidos pranesima
+    //if ('' + a === 'NaN' || Math.abs(a) === Infinity) {
+    //    return `Pirmasis parametras turi buti normalus skaicius ir negali buti ${a}`;
+    // }
+
+    if (!isFinite(a)) {
+    return `Pirmasis parametras turi buti normalus skaicius ir negali buti ${a}`;
+}
+
     if (typeof b !== 'number') {
-        return 'Antrasis parametras turi buti skaiciaus formato';
-    }
+    return 'Antrasis parametras turi buti skaiciaus formato';
+}
 
-    if (isNaN(b) || (b === Infinity) || (b === -Infinity)) {
-        return `Antrasis parametras turi buti normalus skaicius ir negali buti ${b}`;
-    }
+    //if (isNaN(b) || (b === Infinity) || (b === -Infinity)) {
+    //return `Antrasis parametras turi buti normalus skaicius ir negali buti ${b}`;
+    //}
 
+    if (!isFinite(b)) {
+    return `Pirmasis parametras turi buti normalus skaicius ir negali buti ${a}`;
+}
     const rez = a * b;
     // logika
 
