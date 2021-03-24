@@ -253,3 +253,31 @@ const dictionary2 = ['Labas', 'rytas', 'Lietuva', 'sakau', 'tau'];
 const short = dictionary2.reduce((total, word) => total + word[0], '');
 
 console.log(short);
+
+console.clear()
+
+/********************************************************************/
+/********************************************************************/
+/********************************************************************/
+
+// SORT
+
+
+
+const sortAbc = ['a', 'c', 'fabrikas', 'fancy', 'baklazanas', 'Bermudai', 'd', 'Antanas']
+const sortedAbc = sortAbc.sort();
+console.log(sortedAbc);
+
+const sortList = [1, -5, 78, 2, 11, -14, 0, -3]
+const sortedNumber = sortList.sort((a, b) => a < b ? -1 : 1);
+console.log(sortedNumber);
+
+console.clear()
+
+/********************************************************************/
+/********************************************************************/
+/********************************************************************/
+
+
+
+
